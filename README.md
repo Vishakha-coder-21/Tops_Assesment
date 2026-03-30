@@ -1,1 +1,8 @@
-Welcome to the AI/ML Assessment Folder. This repository contains all the assignments, problem-solving tasks, and mini-projects completed as part of the Artificial Intelligence and Machine Learning learning journey.
+🚀 Welcome to the AI/ML Assessment Repository
+This repository highlights my hands-on work in Artificial Intelligence and Machine Learning, including assignments, coding challenges, and mini-projects.
+
+💡 It demonstrates my ability to:
+
+🧠 Apply theoretical concepts to real-world problems
+⚙️ Build and implement machine learning models
+📊 Solve problems using data-driven approaches
