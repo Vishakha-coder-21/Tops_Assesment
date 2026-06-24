@@ -1,0 +1,77 @@
+1. Fashion MNIST contains raw 28×28 pixel images. Why is Deep Learning more suitable than traditional ML for classifying raw image data?
+
+Deep Learning is more suitable because it can automatically learn important features (edges, shapes, textures, patterns) directly from raw pixels. Traditional Machine Learning usually requires manual feature engineering, where humans must extract useful features before training the model.
+
+Example:
+
+Traditional ML: Extract image features manually → Train classifier.
+Deep Learning: Feed raw image pixels directly → Model learns features automatically.
+
+Answer: Deep Learning automatically learns hierarchical features from raw image pixels, reducing the need for manual feature extraction and improving image classification performance.
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+2. The DL workflow follows a fixed sequence of stages. List the stages of the Deep Learning workflow in order.
+
+Deep Learning Workflow:
+
+Data Collection
+Data Preprocessing
+Model Selection / Architecture Design
+Model Training
+Validation / Hyperparameter Tuning
+Model Testing
+Deployment
+Monitoring and Maintenance
+
+Answer:
+Data Collection → Data Preprocessing → Model Design → Training → Validation → Testing → Deployment → Monitoring.
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+3. A biological neuron fires only when incoming signals exceed a threshold. What is the artificial equivalent of this threshold mechanism in a neural network?
+
+In Artificial Neural Networks, the threshold mechanism is implemented using an Activation Function.
+
+The neuron:
+
+Calculates the weighted sum of inputs.
+Passes the result through an activation function.
+Produces an output if the activation condition is met.
+
+Common activation functions:
+
+ReLU
+Sigmoid
+Tanh
+Softmax
+
+Answer: The artificial equivalent of the biological threshold is the activation function, which determines whether and how strongly a neuron activates.
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+4. You must choose between an ANN and a CNN for Fashion MNIST. What property of CNNs makes them better suited for image data than a plain ANN?
+
+CNNs are designed specifically for images because they use:
+
+Convolutional layers to detect local patterns such as edges and textures.
+Weight sharing to reduce the number of parameters.
+Spatial feature extraction to preserve image structure.
+
+A plain ANN treats each pixel independently and ignores spatial relationships between neighboring pixels.
+
+Answer: CNNs automatically capture spatial and local image features through convolution operations, making them more effective and efficient for image classification than ANNs.
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+5. Deep Learning was theorized decades ago but became practical only recently. Name two factors that enabled the rise of modern Deep Learning.
+
+Two major factors are:
+
+Powerful Hardware (GPUs/TPUs)
+Enables fast parallel computation for training large neural networks.
+Availability of Large Datasets
+Massive datasets provide enough examples for deep networks to learn complex patterns.
+
+Other contributing factors:
+
+Improved algorithms (Backpropagation, Adam Optimizer)
+Cloud computing
+Open-source frameworks (TensorFlow, PyTorch)
+
+Answer: The rise of modern Deep Learning was mainly enabled by powerful computing hardware (GPUs/TPUs) and the availability of large-scale datasets.
